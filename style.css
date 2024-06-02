@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(45deg, #37474f, #414866);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+
+
+}
+
+.container {
+    display: flex;
+    background-color: #232931;
+    height: 362px;
+    width: 900px;
+    overflow: hidden;
+    border-radius: 25px;
+}
+
+
+.left-info {
+    display: flex;
+    justify-content: center;
+    background: url(GTA6.jpeg);
+    width: 50%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    border-radius: 25px;
+    margin-left: -13px;
+    filter: drop-shadow(2px 4px 6px #000);
+
+    cursor: pointer;
+
+}
+
+
+
+.gradient {
+    background: linear-gradient(135deg, #c0715c 10%, #a10d0d 100%);
+    opacity: 0.3;
+    position: absolute;
+    width: 440px;
+    height: 362px;
+    border-radius: 25px;
+}
+
+.date-info {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.temp {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+}
+
+.right-info {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+}
+
+.search-bar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#input {
+    width: 70%;
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #fff;
+
+}
+
+#input::placeholder {
+
+    padding: 10px;
+}
+
+#submit {
+    width: 60px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+}
+
+.weather-details {
+    height: 100%;
+    width: 100%;
+    margin-left: 130px;
+    margin-top: 25px;
+}
+
+.day-info {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.info {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
